@@ -9,7 +9,6 @@ function Profile({ name, tag, location, image, stats }) {
         <p className={styles.tag}>@{tag}</p>
         <p className={styles.location}>{location}</p>
       </div>
-
       <ul className={styles.stats}>
         <li className={styles.statItem}>
           <span>Followers</span>
